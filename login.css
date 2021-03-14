@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginContainer{
+    width: 800px;
+    margin:110px auto;
+    height: 400px;
+    background:url(./images/51493028-3d-diagonal-square-tiled-backdrop.jpg);
+    background-size: auto;
+    display: grid;
+    grid-template-rows: 275px 100px;
+    grid-template-columns: 1fr;
+  }
+  .formContainer{
+    margin-top: 50px;
+    margin-left: 25px;
+    border:1px solid rgb(0, 174, 255);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: repeat(4,49.5px);
+    grid-template-columns:0.33fr 0.33fr 1fr ;
+  }
+  .formHeader{
+    grid-column: 1/5;
+    background-color:rgb(0, 174, 255);
+  }
+  .loginHeader{
+    color:black;
+    padding-left: 8px;
+    padding-top: 5px;
+  }
+  .userInput{
+    grid-column: 1/5;
+    background-color:rgb(100, 164, 195);
+  }
+  .label{
+    padding-left: 8px;
+    padding-top: 8px;
+    font-size: 22px;
+    justify-items: center;
+    grid-column: 1/2;
+  }
+  .input{
+    display: grid;
+    grid-column: 2/4;
+    height: 45px;
+    padding-top: 4px;
+    padding-left: 40px;
+    padding-bottom: 4px;
+    width: 600px;
+  }
+  .field{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  .passwordInput{
+    grid-column: 1/5;
+    background-color:rgb(100, 164, 195);
+  }
+  .inputp{
+    display: grid;
+    grid-column: 2/4;
+    height: 45px;
+    padding-top: 4px;
+    margin-left: 5px;
+    padding-bottom: 4px;
+    padding-left: 40px;
+    width: 600px;
+  }
+  .button{
+    display: grid;
+    padding-left: 95px;
+    grid-template-rows:49.5px ;
+    grid-template-columns: 250px 1fr;
+    grid-column: 1/5;
+    background-color:rgb(100, 164, 195);
+  }
+  .buttontag{
+    grid-column: 1/2;
+    height: 30px;
+    outline: none;
+    border: 1px solid grey;
+    color:white;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 200px;
+    margin-top: 9px;
+    background-color: rgb(19, 86, 231);
+    justify-items: center;
+  }
+  .link{
+    grid-column: 2/-1;
+    margin-left: 40px;
+    padding-left: 220px;
+    padding-top: 9px;
+    justify-items:end;
+  }
+  .footer{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-column:1/-1;
+    grid-template-rows:100px ;
+    grid-template-columns: 0.5fr 0.5fr;
+  } 
+  .createAccount{
+    grid-column:1/2 ;
+    height: 65px;
+    font-size: 22px;
+    padding-top:30px;
+  }
+  .help{
+    grid-column:2/-1;
+    height: 65px;
+    font-size: 22px;
+    border-left: 1px solid;
+  }

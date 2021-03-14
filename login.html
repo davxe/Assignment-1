@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="./activity.css">
+    <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <main class="loginContainer">
@@ -21,10 +21,27 @@
                    </tr>
                </table>
             </div>
-            <div class="passwordInput">password</div>
-            <div class="button">button</div>
+            <div class="passwordInput">
+                <table>
+                    <tr>
+                        <th class="label">Password</th>
+                        <td class="inputp"><input class="field" type="password"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="button">
+                <table>
+                    <tr>
+                        <button class="buttontag" onclick="location.href='./activity.html'" type="button">Login</button>
+                        <td class="link"><a href="#">I forgot my passsword</a></td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="footer">last data</div>
+        <div class="footer">
+                    <div class="createAccount"><p>Create a new account <a href="#">here</a>.</p></div>
+                    <div class="help">If you need any other help, please contact the helpdesk</div>
+        </div>
     </main>
 </body>
 </html>

@@ -10,6 +10,7 @@ main {
   grid-template-rows: 60px 140px 100px 320px;
   grid-template-columns: 0.05fr 0.95fr;
 }
+
 .iconstack {
   background-color:rgb(71,85,171);
   grid-column: 1;
@@ -63,20 +64,79 @@ main {
   padding-right: 3px;
   padding-top: 3px;
 }
-.dot{
+.dot_alert{
+  position: absolute;
   border:1px solid;
   border-radius: 50%;
   height: 30px;
   width: 30px;
+  padding-left:1px;
   background-color:rgb(190,192,196);
-  display: inline-block;
+  display: grid;
 }
-.dot1{
-  border: 1px solid black;
+.dot_message{
+  position: absolute;
+  border:1px solid;
   border-radius: 50%;
-  height: 8px;
-  width: 8px;
-  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding-left:2px;
+  background-color:rgb(190,192,196);
+  display: grid;
+}
+.dot_login{
+  position: absolute;
+  border:1px solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding-left:2px;
+  background-color:rgb(190,192,196);
+  display: grid;
+}
+.dot1_alert{
+  border:none;
+  position: relative;
+  color: white;
+  background-color: rgb(102,55,99);
+  border-radius: 50%;
+  font-size: 13px;
+  padding-right: 3px;
+  margin-top: -4px;
+  margin-inline-start: 22px;
+  height: 14px;
+  width: 14px;
+  display: grid;
+}
+.dot1_message{
+  border:none;
+  position: relative;
+  color: white;
+  background-color: rgb(102,55,99);
+  border-radius: 50%;
+  font-size: 13px;
+  padding-right: 4px;
+  padding-top: -1px;
+  margin-top: -4px;
+  margin-inline-start: 20px;
+  height: 14px;
+  width: 14px;
+  display: grid;
+}
+.dot1_login{
+  border:3px solid white;
+  position: relative;
+  color: white;
+  background-color: rgb(37,85,39);
+  border-radius: 50%;
+  font-size: 13px;
+  padding-right: 4px;
+  padding-top: -1px;
+  margin-top: -4px;
+  margin-inline-start: 20px;
+  height: 14px;
+  width: 14px;
+  display: grid;
 }
 .icon {
   background-color:rgb(255,255,255);

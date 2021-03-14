@@ -247,7 +247,7 @@ hr{
 .formContainer{
   margin-top: 50px;
   margin-left: 25px;
-  border:1px solid;
+  border:1px solid rgb(0, 174, 255);
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -256,14 +256,40 @@ hr{
   margin-bottom: 25px;
   display: grid;
   grid-template-rows: repeat(4,49.5px);
-  grid-template-columns: ;
-  background-color: yellow;
+  grid-template-columns:0.33fr 0.33fr 1fr ;
 }
 .formHeader{
-  background-color: teal;
+  grid-column: 1/5;
+  background-color:rgb(0, 174, 255);
+}
+.loginHeader{
+  color:black;
+  padding-left: 8px;
+  padding-top: 5px;
 }
 .userInput{
+  grid-column: 1/5;
   background-color: red;
+}
+.label{
+  padding-left: 8px;
+  padding-top: 8px;
+  font-size: 22px;
+  justify-items: center;
+  grid-column: 1/2;
+}
+.input{
+  display: grid;
+  grid-column: 2/4;
+  height: 45px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 600px;
+}
+.field{
+  border-radius: 5px;
+  outline: none;
+  border: none;
 }
 .passwordInput{
   background-color: orange;

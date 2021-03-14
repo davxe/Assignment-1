@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: rgb(238,238,238);
+  width: 100%;
+  display: grid;
+  grid-template-rows: 60px 140px 100px 320px;
+  grid-template-columns: 0.05fr 0.95fr;
+}
+.iconstack {
+  background-color:rgb(71,85,171);
+  grid-column: 1;
+}
+.palletteIcon{
+  color: rgb(175,94,169);
+}
+.arrowIcon{
+  margin-top: 65px;
+}
+.nav {
+  background-color:rgb(255,255,255);
+  grid-column: 2/-1;
+  display: grid;
+  grid-template-rows: 60px;
+  grid-template-columns: 0.8fr 0.1fr 0.06fr 0.06fr 0.06fr;
+  text-align: end;
+  justify-items: center;
+  font-size: 25px;
+  padding-top: 15px;
+}
+.search{
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 20px; 
+  background-color: rgb(238,238,238); 
+  padding-left: 10px; 
+}
+.searchIcon{
+  width:16px;
+  height:16px;
+  position:absolute; 
+  right:15px; top:5px
+}
+.messageIcon{
+  width:16px; 
+  height:16px; 
+  color: rgb(83, 81, 81); 
+  padding-right:26px; 
+  padding-top: 4px;
+}
+.bellIcon{
+  width: 16px;
+  height: 16px;
+  color: rgb(83, 81, 81); 
+  padding-right:26px; 
+  padding-top: 1px;
+}
+.user_login_icon{
+  padding-right: 3px;
+  padding-top: 3px;
+}
+.dot{
+  border:1px solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color:rgb(190,192,196);
+  display: inline-block;
+}
+.dot1{
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+}
+.icon {
+  background-color:rgb(255,255,255);
+  grid-row: 2/-1;
+  text-align: center;
+  font-size: 36px;
+}
+.dashboard {
+  background-color:rgb(238,238,238);
+  grid-column: 2/-1;
+}
+.ptag{
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.htag{
+  padding-left: 8px;
+  padding-top: 15px;
+  font-family:serif;
+  padding-bottom: 10px;
+}
+span{
+  color: rgb(116,119,180);
+}
+.card {
+  display: grid;
+  padding-left: 8px;
+  padding-right: 8px;
+  grid-template-rows: 100px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card1 {
+  background-color:rgb(255,255,255);
+  margin: 4px;
+  border-radius: 5px;
+  border:2px solid white;
+  border-top-color:rgb(142,151,204);
+}
+td{
+  padding-left: 130px;
+}
+.card1_img{
+  opacity: 0.2;
+}
+.card1_users_header{
+  color: rgb(54,79,171); font-size: larger;
+}
+.card1_users_details{
+  font-size: small; text-align: right;
+}
+.card1_visitor_header{
+  color:rgb(172,89,167); font-size: larger;
+}
+.card1_visitor_details{
+  font-size: small; text-align: right;
+}
+.card1_downloads_header{
+  color: rgb(54,79,171); font-size: larger;
+}
+.card1_downloads_details{
+  font-size: small; text-align: right;
+}
+.card1_cart_header{
+  color: rgb(255,77,126); font-size: larger
+}
+.card1_cart_details{
+  font-size: small; text-align: right;
+}
+.main {
+  display: grid;
+  padding-left: 8px;
+  padding-right: 8px;
+  grid-template-rows: 310px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main1{
+  display: grid;
+  margin: 4px;
+  border-radius: 5px;
+  grid-template-rows: 0.2fr 2px 0.79fr;
+  grid-template-columns: 1fr;
+}
+.child1{
+  background-color: rgb(255,255,255);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.child2{
+  background-color: rgb(255,255,255);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+hr{
+  opacity: 0.1%;
+}
